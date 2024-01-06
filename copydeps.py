@@ -23,7 +23,7 @@ dependency graph.
 
 # Skip Linux dynamic loaders by default because they do not fit in the
 # soname => path output of ldd
-DEFAULT_EXCLUDE_LIST = ['ld-linux.so.*', 'ld-linux-x86-64.so.*']
+DEFAULT_EXCLUDE_LIST = ['ld-linux.so.*', 'ld-linux-*.so.*']
 
 DOT_EXCLUDED_ATTRS = '[color="gray" fontcolor="gray"]'
 
